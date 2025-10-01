@@ -1,6 +1,7 @@
 import glob
 import os
 
+
 def mapreduce(input_folder, output_folder, mapper_fn, reducer_fn):
 
     def read_records_from_input(input_folder):
